@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+.container-profile {
+    margin: 20px;
+    text-align: center;
+    color: white
+}
+
+.my-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: none !important;
+    border: 0;
+    border-radius: 0;
+}
+
+.my-carousel {
+    width: auto;
+    top: 0;
+}
+
+.carousel {
+    height: 600px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-30%);
+    right: 0%;
+    left: 0%;
+    color: black;
+}
+
+@font-face {
+    font-family: "Avenir Next Heavy";
+    src: url(../css/fonts/AvenirNextLTPro-Heavy.woff);
+}
+
+h1 {
+    font-family: 'Avenir Next Heavy';
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 83px;
+}
+
+.my-img {
+    height: 600px;
+    object-fit: cover;
+}
+
+small {
+    text-align: center;
+}

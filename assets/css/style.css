@@ -9,11 +9,26 @@ body {
 
 .my-nav {
     position: absolute;
+    justify-content: space-between;
     width: 100%;
     z-index: 999;
     background: none !important;
     border: 0;
     border-radius: 0;
+    margin-top: 40px;
+}
+
+.navbar-brand {
+    font-size: 13px !important;
+    margin-left: 50px;
+}
+
+#navbarNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 13px;
+    margin-right: 40px;
 }
 
 .my-carousel {
@@ -22,7 +37,7 @@ body {
 }
 
 .carousel {
-    height: 600px;
+    height: 630px;
 }
 
 .carousel-caption {
@@ -31,6 +46,14 @@ body {
     right: 0%;
     left: 0%;
     color: black;
+}
+
+.carousel-control-next {
+    cursor: default !important;
+}
+
+.carousel-control-prev {
+    cursor: default !important;
 }
 
 @font-face {
@@ -42,14 +65,46 @@ h1 {
     font-family: 'Avenir Next Heavy';
     font-weight: bold;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    font-size: 83px;
+    font-size: 100px;
 }
 
 .my-img {
-    height: 600px;
+    height: 700px;
     object-fit: cover;
 }
 
 small {
     text-align: center;
 }
+
+.carousel-indicators li {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+  }
+
+  footer {
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    background: none !important;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+    margin-bottom: 10px !important;
+    list-style: none;
+  }
+
+  #link {
+    color: white;
+    font-size: 13px;
+    margin-right: 15px;
+    text-decoration: none;
+    background: transparent;
+  }

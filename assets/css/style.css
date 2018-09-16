@@ -1,3 +1,5 @@
+/* index.html */
+
 body {
     background-color: black;
 }
@@ -97,7 +99,7 @@ small {
     display: flex;
     justify-content: flex-end;
     padding-left: 0;
-    margin-bottom: 10px !important;
+    margin-bottom: 80px !important;
     list-style: none;
   }
 
@@ -107,4 +109,25 @@ small {
     margin-right: 15px;
     text-decoration: none;
     background: transparent;
+  }
+
+  .portfolio-profile {
+    color: white;
+    text-align: center;
+  }
+
+  .row {
+      margin: 0px;
+  }
+
+  .repo-list {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  #project-link {
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-decoration: none;
   }
